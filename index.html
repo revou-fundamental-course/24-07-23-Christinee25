@@ -6,7 +6,7 @@
     <title>Nonchalant Travel Agent's </title>
     <link rel="stylesheet" href="./CSS/style.css"/>
     <nav class="container">
-        <img src="./assets/Logo.jpeg" class="logo">
+        <img src="./assets/Logor.png" class="logo">
         <div class="home"><a href="index.html" style="text-decoration:none; color:yellow;">Home</a></div>
         <div class="our_packages"><a href="#our_packages" style="text-decoration:none; color:yellow;">Our Packages</a></div>
         <div class="call_us"><a href="#contact_us" style="text-decoration:none; color:yellow;">Call Us</a></div>
@@ -47,7 +47,7 @@
                     <br>
                     <br>
                     <div class="inner-row">
-                        <img src="./assets/profil.jpeg">
+                        <img src="./assets/profilr.png">
                         <div class="inner-column">
                             <div class="username"><b>Florence Hughes</b></div>
                             <div class="userdetails"><i>Ibu Rumah Tangga, 28th</i></div>
@@ -59,7 +59,7 @@
                     <br>
                     <br>
                     <div class="inner-row">
-                        <img src="./assets/profil.jpeg">
+                        <img src="./assets/profilr.png">
                         <div class="inner-column">
                             <div class="username"><b>Christine</b></div>
                             <div class="userdetails"><i>Mahasiswa, 22th</i></div>
@@ -71,7 +71,7 @@
                     <br>
                     <br>
                     <div class="inner-row">
-                        <img src="./assets/profil.jpeg">
+                        <img src="./assets/profilr.png">
                         <div class="inner-column">
                             <div class="username"><b>Mike Mohede</b></div>
                             <div class="userdetails"><i>Singer, 29th</i></div>
@@ -85,13 +85,15 @@
         </div>
         <div class="contact_us col-s-2 col-2">
             <div>
-                <h3 id="contact_us">COntact Us</h3>
+                <h3 id="contact_us">Contact Us</h3>
                 <p>Hi, <span id="name"></span></p>
                 <p>Sales akan menghubungi Anda 1 x 24 jam setelah data kami terima</p>
                 <form name="message-form" action="" onsubmit="return validateForm()">
                     <div>
                         <label form="Nama">Your Name:</label>
-                        <input id="Nama" name="full-name" type="text" placeholder="First and last name"/>
+                        <input id="Nama-input" name="full-name" type="text" placeholder="First and last name"/>
+                        <span id="Nama-error" class="hide required-color error-message">Not valid!</span>
+                        <span id="empty-Nama" class="hide required-color error-message">Nama harus diisi!</span>
                     </div>
                     <br>
                     <div>
